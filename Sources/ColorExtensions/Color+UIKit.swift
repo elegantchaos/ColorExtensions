@@ -8,19 +8,18 @@ import SwiftUI
 #if canImport(UIKit)
 
 public extension Color {
-    // named colours not exposed by SwiftUI
-    static let systemGroupedBackground = Color(UIColor.systemGroupedBackground)
-    static let secondarySystemGroupedBackground = Color(UIColor.secondarySystemGroupedBackground)
-    static let tertiarySystemGroupedBackground = Color(UIColor.tertiarySystemGroupedBackground)
+    static let groupedBackground = Color(UIColor.systemGroupedBackground)
+    static let secondaryGroupedBackground = Color(UIColor.secondarySystemGroupedBackground)
+    static let tertiaryGroupedBackground = Color(UIColor.tertiarySystemGroupedBackground)
 
-    static let systemFill = Color(UIColor.systemFill)
-    static let secondarySystemFill = Color(UIColor.secondarySystemFill)
-    static let tertiarySystemFill = Color(UIColor.tertiarySystemFill)
-    static let quaternarySystemFill = Color(UIColor.quaternarySystemFill)
+    static let fill = Color(UIColor.systemFill)
+    static let secondaryFill = Color(UIColor.secondarySystemFill)
+    static let tertiaryFill = Color(UIColor.tertiarySystemFill)
+    static let quaternaryFill = Color(UIColor.quaternarySystemFill)
 
-    static let systemBackground = Color(UIColor.systemBackground)
-    static let secondarySystemBackground = Color(UIColor.secondarySystemBackground)
-    static let tertiarySystemBackground = Color(UIColor.tertiarySystemBackground)
+    static let background = Color(UIColor.systemBackground)
+    static let secondaryBackground = Color(UIColor.secondarySystemBackground)
+    static let tertiaryBackground = Color(UIColor.tertiarySystemBackground)
     
     static let label = Color(UIColor.label)
     static let secondaryLabel = Color(UIColor.secondaryLabel)
@@ -30,10 +29,9 @@ public extension Color {
     static let lightText = Color(UIColor.lightText)
     static let darkText = Color(UIColor.darkText)
 
-    // explicit colours not exposed by SwiftUI
-    static let systemGray2 = Color(UIColor.systemGray2)
-    static let systemGray3 = Color(UIColor.systemGray3)
-    static let systemGray4 = Color(UIColor.systemGray4)
-    static let systemGray5 = Color(UIColor.systemGray5)
+    static let gray2 = Color(UIColor.systemGray2)
+    static let gray3 = Color(UIColor.systemGray3)
+    static let gray4 = Color(UIColor.systemGray4)
+    static let gray5 = Color(UIColor.systemGray5)
 }
 #endif
